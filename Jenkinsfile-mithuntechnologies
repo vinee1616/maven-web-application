@@ -1,7 +1,7 @@
 #!groovy
 properties([buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '', daysToKeepStr: '', numToKeepStr: '3'))])
 
-node ('node1'){
+node ('node2'){
    /* 
     stage('Checkout') { 
    git branch: 'master', credentialsId: '21311c83-a7a7-4316-8a19-b5b828aaf1a9', url: ' https://github.com/MithunTechnologiesDevOps/maven-web-application.git'
