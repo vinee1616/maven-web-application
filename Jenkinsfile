@@ -1,7 +1,7 @@
 
 properties([buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '', daysToKeepStr: '', numToKeepStr: '4'))])
 
-node{
+node('slave1'){
     
   stage('Checkout the code') 
     {
